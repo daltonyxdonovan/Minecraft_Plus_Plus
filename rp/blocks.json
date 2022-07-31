@@ -1,0 +1,10 @@
+{
+	"format_version": [1, 1, 0],
+	"daltonyx:bomb_block": {
+		"textures": "bomb_block",
+		"sound": "stone"
+	}
+	
+	
+	
+}

@@ -1,0 +1,17 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Minecraft++",
+		"description": "Copper tools, weird stuff, and a few useful items. By Daltonyx",
+		"uuid": "ae9a7bf4-f678-43b2-89a9-78efc1eb5018",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "2c687999-f82c-44fd-bd9f-13db9632d904",
+			"version": [1, 0, 0]
+		}
+	]
+}

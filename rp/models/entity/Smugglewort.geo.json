@@ -1,0 +1,52 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.smugglewort",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "belly",
+					"parent": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 1, -20], "size": [6, 5, 17], "uv": [0, 0]},
+						{"origin": [-6, 0, -18], "size": [2, 2, 2], "uv": [0, 0]},
+						{"origin": [0, 0, -18], "size": [2, 2, 2], "uv": [0, 4]},
+						{"origin": [-2, 5, -19], "size": [0, 4, 13], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "belly2",
+					"parent": "belly",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 1, -3], "size": [4, 3, 17], "uv": [0, 22]},
+						{"origin": [-1, 0, 11], "size": [2, 2, 2], "uv": [6, 10]},
+						{"origin": [-5, 0, 11], "size": [2, 2, 2], "uv": [0, 8]},
+						{"origin": [-5, 0, -1], "size": [2, 2, 2], "uv": [6, 2]},
+						{"origin": [-1, 0, -1], "size": [2, 2, 2], "uv": [6, 6]}
+					]
+				},
+				{
+					"name": "belly3",
+					"parent": "belly2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 1, 14], "size": [2, 2, 8], "uv": [25, 22]}
+					]
+				}
+			]
+		}
+	]
+}

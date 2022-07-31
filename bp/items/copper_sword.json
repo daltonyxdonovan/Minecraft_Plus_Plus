@@ -1,0 +1,83 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "daltonyx:copper_sword",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 200
+			},
+			"minecraft:damage": 10,
+			"minecraft:icon": {
+				"texture": "daltonyx.copper_sword"
+			},
+			"minecraft:enchantable": {
+				"value": 14,
+				"slot": "sword"
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 20
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 20
+					}
+				]
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "daltonyx:copper_sword.hurt_entity"
+				}
+			},
+			"tag:minecraft:is_sword": {}
+		},
+		"events": {
+			"daltonyx:copper_sword.hurt_entity": {
+				"sequence": [
+					{
+						"randomize": [
+							{
+								"weight": 1,
+								"teleport": {
+									"target": "holder",
+									"max_range": [
+										8,
+										8,
+										8
+									]
+								},
+								"run_command": {
+									"command": [
+										"tellraw @s{\"rawtext\":[{\"text\":\"§aYour Sword Glows§r\"}]}"
+									]
+								}
+							},
+							{
+								"weight": 1
+							}
+						]
+					},
+					{
+						"damage": {
+							"type": "magic",
+							"target": "self",
+							"amount": 1
+						}
+					}
+				]
+			}
+		}
+	}
+}

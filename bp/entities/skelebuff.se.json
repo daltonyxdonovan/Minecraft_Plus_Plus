@@ -1,0 +1,108 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description":
+        {
+            "identifier": "daltonyx:skelebuff",
+            "is_summonable": true,
+            "is_spawnable": true,
+            "is_experimental": false,
+            "animations": {
+                "idle": "animation.skelebuff.idle",
+                "walk": "animation.skelebuff.walk"
+            },
+            "scripts": {"animate": ["idle", "walk"]}
+        },
+
+		"components": 
+        {
+            "minecraft:type_family": 
+            { 
+                "family": ["skelebuff", "monster"] 
+            },
+            "minecraft:health":
+            { 
+                "value": 300, 
+                "max": 300 
+            },
+            "minecraft:attack":
+            { 
+                "damage": 6 
+            },
+            "minecraft:movement":
+            { 
+                "value": 0.6
+            },
+            "minecraft:collision_box":
+            { 
+                "width": 1.5, 
+                "height": 3 
+            },
+            "minecraft:loot":
+            { 
+                "table": "loot_tables/entities/skeleton.json" 
+            },
+
+
+
+            "minecraft:physics": {},
+            "minecraft:jump.static": {},
+            "minecraft:movement.basic": {},
+            "minecraft:navigation.walk": {
+                "can_walk": true,
+                "avoid_sun": false,
+                "can_pass_doors": false,
+                "can_open_doors": false
+            },
+
+
+            
+            "minecraft:behavior.random_stroll": {
+                "priority": 6,
+                "speed_multiplier": 0.6
+            },
+            "minecraft:behavior.random_look_around": { 
+                "priority": 7 
+            },
+            "minecraft:behavior.look_at_player": {
+                "priority": 10,
+                "look_distance": 6,
+                "probability": 0.09
+            },
+            "minecraft:behavior.hurt_by_target": { 
+                "priority": 1 
+            },
+            "minecraft:behavior.nearest_attackable_target": {
+                "priority": 2,
+                "within_radius": 25,
+                "reselect_targets": true,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "any_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "player"
+                                }
+                            ]
+                        },
+                        "max_dist": 100
+                    }
+                ]
+            },
+            "minecraft:behavior.delayed_attack": {
+                "priority": 0,
+                "attack_once": true,
+                "track_target": true,
+                "require_complete_path": false,
+                "random_stop_interval": 0,
+                "reach_multiplier": 1.5,
+                "speed_multiplier": 0.5,
+                "attack_duration": 0.75,
+                "hit_delay_pct": 0.5
+            }
+
+        }
+	}
+}

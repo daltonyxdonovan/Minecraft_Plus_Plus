@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "daltonyx:skelebuff",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/skelebuff"
+			},
+			"geometry": {
+				"default": "geometry.skelebuff"
+			},
+			"render_controllers": ["controller.render.skelebuff"],
+			"animations": {
+				"walk_controller": "controller.animation.skelebuff.walk",
+				"attack_controller": "controller.animation.skelebuff.attack",
+				"attack": "animation.skelebuff.attack",
+				"idle": "animation.skelebuff.idle",
+				"move": "animation.skelebuff.walk"
+			},
+			"scripts": {
+				"animate": [
+					"walk_controller", 
+					"attack_controller"
+				]
+			},
+			"spawn_egg": {
+				"overlay_color": "#350b79",
+				"base_color": "#ccc767"
+			}
+		}
+	}
+}

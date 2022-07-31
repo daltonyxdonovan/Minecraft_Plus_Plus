@@ -1,0 +1,34 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"daltonyx:axolittle": {
+				"events": {
+					"ambient": "mob.axolotl.idle",
+					"ambient.in.water": "mob.axolotl.idle_water",
+					"attack": "mob.axolotl.attack",
+					"death": "mob.axolotl.death",
+					"hurt": "mob.axolotl.hurt",
+					"splash": "mob.axolotl.splash",
+					"swim": "mob.axolotl.swim"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+
+			"daltonyx:snoot": {
+				"events": {
+					"ambient": "mob.strider.idle",
+					"ambient.in.water": "mob.strider.idle_water",
+					"attack": "mob.strider.attack",
+					"death": "mob.strider.death",
+					"hurt": "mob.strider.hurt",
+					"splash": "mob.strider.splash",
+					"swim": "mob.strider.swim"
+				},
+				"pitch": [1.2, 0.8],
+				"volume": 1
+			}
+		}
+		
+	}
+}

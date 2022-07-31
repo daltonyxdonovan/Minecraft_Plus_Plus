@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "daltonyx:heartsly",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/heartsly"
+			},
+			"geometry": {
+				"default": "geometry.heartsly"
+			},
+			"render_controllers": ["controller.render.heartsly"],
+			"animations": {
+				"walk_controller": "controller.animation.heartsly.walk",
+				"attack_controller": "controller.animation.heartsly.attack",
+				"attack": "animation.heartsly.attack",
+				"idle": "animation.heartsly.idle",
+				"move": "animation.heartsly.walk"
+			},
+			"scripts": {
+				"animate": [
+					"walk_controller", 
+					"attack_controller"
+				]
+			},
+			"spawn_egg": {
+				"overlay_color": "#bdd1d1",
+				"base_color": "#000aaa"
+			}
+		}
+	}
+}

@@ -1,0 +1,70 @@
+pack.name=Minecraft++
+pack.description=Copper tools, weird stuff, and a few useful items. By Daltonyx
+item.daltonyx:ectoplasm=Ectoplasm
+
+item.daltonyx:bomb=Bomb
+item.daltonyx:emerald_sword=Emerald Sword++
+item.daltonyx:bomb.description=A bomb item that does literally nothing right now, just a test for item images
+item.daltonyx:meal.name=Hotdog of Healing
+item.daltonyx:meal.description=A hotdog that heals you *immensely*
+item.daltonyx:gem.name=Gem
+item.daltonyx:gem.description=A gem that does literally nothing right now, just a test for item images
+item.daltonyx:copper_axe.name=Copper Axe
+item.daltonyx:copper_axe=Copper Axe
+item.daltonyx:copper_axe.description=A copper axe, since Mojang won't do it!
+item.daltonyx:copper_pickaxe.name=Copper Pickaxe
+item.daltonyx:copper_pickaxe=Copper Pickaxe
+item.daltonyx:copper_pickaxe.description=A copper pickaxe, since Mojang won't do it!
+item.daltonyx:copper_shovel.name=Copper Shovel
+item.daltonyx:copper_shovel=Copper Shovel
+item.daltonyx:copper_shovel.description=A copper shovel, since Mojang won't do it!
+item.daltonyx:copper_sword.name=Copper Sword
+item.daltonyx:copper_sword=Copper Sword
+item.daltonyx:copper_sword.description=A copper sword, since Mojang won't do it!
+item.daltonyx:copper_hoe.name=Copper Hoe
+item.daltonyx:copper_hoe=Copper Hoe
+item.daltonyx:copper_hoe.description=A copper hoe, since Mojang won't do it!
+
+item.daltonyx:emerald_sword.description=A Sword made of emerald, with a lot of stopping power.
+item.daltonyx:bomb_explosion=Bomb Explosion
+tile.daltonyx:bomb_block=Bomb block
+item.daltonyx:bomb_block.description=Bomb Block that does literally nothing right now
+item.daltonyx:wafer.name=Wafer
+item.daltonyx:wafer.description=A wafer that does literally nothing right now
+item.daltonyx:wafer_pressed.name=Pressed Wafer
+item.daltonyx:wafer_pressed.description=A pressed wafer that does literally nothing right now
+item.daltonyx:glitch_helmet.name=Glitch Helmet
+item.daltonyx:glitch_helmet.description=A helmet that does literally nothing right now
+item.daltonyx:glitch_chestplate.name=Glitch Chestplate
+item.daltonyx:glitch_chestplate.description=A chestplate that does literally nothing right now
+item.daltonyx:glitch_leggings.name=Glitch Leggings
+item.daltonyx:glitch_leggings.description=A leggings that does literally nothing right now
+item.daltonyx:glitch_boots.name=Glitch Boots
+item.daltonyx:glitch_boots.description=A boots that does literally nothing right now
+
+entity.daltonyx:axolittle.name=Axolittle
+entity.daltonyx:snoot.name=Snooter
+entity.daltonyx:skelebuff.name=Skelly-Tall
+entity.daltonyx:smugglewort.name=Axolongle
+entity.daltonyx:walker.name=Walker
+entity.daltonyx:heartsly.name=Heartsly
+entity.daltonyx:heartsly=Heartsly
+
+item.spawn_egg.entity.daltonyx:snoot.name=Snooter Spawn Egg
+item.spawn_egg.entity.daltonyx:skelebuff.name=Skelly-Tall Spawn Egg
+item.spawn_egg.entity.daltonyx:axolittle.name=Axolittle Spawn Egg
+item.spawn_egg.entity.daltonyx:smugglewort.name=Axolongle Spawn Egg
+item.spawn_egg.entity.daltonyx:walker.name=Walker Spawn Egg
+
+
+item.spawn_egg.entity.daltonyx:snoot=Snooter Spawn Egg
+item.spawn_egg.entity.daltonyx:skelebuff=Skelly-Tall Spawn Egg
+item.spawn_egg.entity.daltonyx:axolittle=Axolittle Spawn Egg   
+item.spawn_egg.entity.daltonyx:smugglewort=Axolongle Spawn Egg
+item.spawn_egg.entity.daltonyx:walker=Walker Spawn Egg
+
+entity.daltonyx:wizard.name=Wizard
+item.spawn_egg.entity.daltonyx:wizard.name=Spawn Wizard
+
+entity.daltonyx:firespitter.name=Firespitter
+item.spawn_egg.entity.daltonyx:firespitter.name=Spawn Firespitter

@@ -1,0 +1,127 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"category": "equipment",
+			"identifier": "daltonyx:copper_pickaxe"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.pickaxe"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 200
+			},
+			"minecraft:icon": {
+				"texture": "daltonyx.copper_pickaxe"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"daltonyx:copper_pickaxe"
+						],
+						"repair_amount": 20
+					}
+				]
+			},
+			"minecraft:mining_speed": 1,
+			"minecraft:damage": 3,
+			"minecraft:enchantable": {
+				"value": 14,
+				"slot": "pickaxe"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					
+					{
+						"block": "minecraft:ice",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:sandstone",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:diamond_ore",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:diamond_block",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:emerald_block",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:diamond_ore",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:obsidian",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:stone",
+						"speed": 5
+
+					},
+					{
+						"block": "minecraft:cobblestone",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:netherrack",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:end_stone",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:nether_gold_ore",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:nether_quartz_ore",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:nether_brick",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:nether_brick_fence",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:nether_brick_stairs",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:nether_wart",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:nether_wart_block",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:nether_brick_fence_gate",
+						"speed": 5
+					},
+					{
+						"block": "minecraft:nether_brick_stairs",
+						"speed": 5
+					}
+					
+				]
+			},
+			"tag:minecraft:is_pickaxe": {}
+		}
+	}
+}

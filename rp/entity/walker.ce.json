@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "daltonyx:walker",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/walker"
+			},
+			"geometry": {
+				"default": "geometry.walker"
+			},
+			"render_controllers": ["controller.render.walker"],
+			"animations": {
+				"walk_controller": "controller.animation.walker.walk",
+				"attack_controller": "controller.animation.walker.attack",
+				"attack": "animation.walker.attack",
+				"idle": "animation.walker.idle",
+				"move": "animation.walker.walk"
+			},
+			"scripts": {
+				"animate": [
+					"walk_controller", 
+					"attack_controller"
+				]
+			},
+			"spawn_egg": {
+				"overlay_color": "#bdd1d1",
+				"base_color": "#000aaa"
+			}
+		}
+	}
+}
